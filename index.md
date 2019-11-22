@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html><head>
   <title>Remote First Capital</title>
   <!-- Why do you read this? looking for easter eggs? ;) … NERD! ;) -->
