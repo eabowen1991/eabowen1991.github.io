@@ -1,0 +1,328 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("grid.css");
+
+/*
+Color Definitions
+Blue: #1570DD
+Red: #F55347
+Green: #00A26B
+Black: #14233C
+Cream: #FFF7EB
+*/
+
+html {
+	background: #fff7eb;
+	color: #14233C;
+	font-size: 18px;
+}
+
+body {
+	border-top: 5px solid #1570DD;
+	font-family: "Sectra", Chalkboard, serif;
+	padding-bottom: 2rem;
+}
+
+.eesti {
+	font-family: "Eesti", Arial, sans-serif;
+}
+
+i {
+	font-style: italic;
+}
+
+a {
+	color: #1570DD;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F55347;
+}
+
+h1 {
+	font-size: 1.75rem;
+	font-weight: 800;
+	margin-bottom: 1.3rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: .25rem;
+}
+
+h3, .h3 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+h4 {
+	font-size: .777rem;
+	line-height: 1.4;
+}
+
+p {
+	line-height: 1.6;
+}
+
+@media (min-width: 40rem) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	h2 {
+		font-size: 1.333rem;
+	}
+}
+
+.mb-24 {
+	margin-bottom: 1.333rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.font-weight-normal {
+	font-weight: normal;
+}
+
+.mx-auto {
+	margin: 0 auto;
+}
+
+.max-width {
+	max-width: 1024px;
+}
+
+.button {
+	border: 1px solid #1570DD;
+	border-radius: 2px;
+	display: inline-block;
+	font-weight: bold;
+	padding: 10px 12px 8px 12px;
+}
+
+.button:hover {
+	border-color: #F55347;
+}
+
+/* Nav */
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0.9rem;
+	font-weight: bold;
+	justify-content: center;
+	margin: 0 auto 2rem;
+}
+
+nav li {
+	align-items: center;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	list-style: none;
+	margin: 0 0.65rem;
+}
+
+nav .logo {
+	background: #1570DD;
+	border-bottom: 3px solid #1570DD;
+	margin: 0;
+	padding: 0 1.3rem;
+	width: 100%;
+}
+
+@media (min-width: 40rem) {
+	nav {
+		margin-bottom: 7.2rem;
+	}
+	nav, nav li {
+		justify-content: flex-start;
+	}
+	nav .logo {
+		margin-right: 0.65rem;
+		width: auto;
+	}
+}
+
+.selected {
+	border-bottom: 3px solid #F55347;
+}
+
+.selected a {
+	color: #F55347;
+}
+
+/* Index */
+
+.hiatus, .head-content, .body-content section {
+	margin-bottom: 2.15rem;
+}
+
+@media (min-width: 40rem) {
+	.hiatus, .head-content, .body-content section {
+		margin-bottom: 4.3rem;
+	}
+}
+
+.hiatus {
+	background: #F55347;
+	color: #FFF7EB;
+	padding: 1.25rem;
+}
+
+.hiatus h2 {
+	margin-bottom: .75rem;
+}
+
+.hiatus h3 {
+	margin-bottom: 0;
+}
+
+@media (min-width: 40rem) {
+	.hiatus {
+		padding: 1.5rem;
+	}
+}
+
+.intro {
+	margin-bottom: 1.8rem;
+}
+
+.index-buttons li {
+	display: block;
+}
+
+@media (min-width: 40rem) {
+	.index-buttons li {
+		display: inline;
+	}
+}
+
+.button-for-teams {
+	margin-bottom: 10px;
+}
+
+@media (min-width: 40rem) {
+	.button-for-teams {
+		margin-bottom: 0;
+		margin-right: 8px;
+	}
+}
+
+.selfie {
+	margin: 2rem auto;
+}
+
+.testimonial {
+	padding: 1.5rem 1.5rem 0;
+}
+
+.quote {
+	margin-bottom: .5rem;
+}
+
+.promise-item h3 {
+	margin-bottom: .5rem;
+}
+
+/* Plans and Pricing */
+
+.plan-item, .pricing-disclaimer {
+	margin-bottom: 1.75rem;
+}
+
+.pricing-details {
+	color: #00A26B;
+	margin-bottom: .5rem;
+}
+
+.individual-pricing-details {
+	color: #00A26B;
+	margin-bottom: .1rem;
+}
+
+.availability-details {
+	color: #777;
+}
+
+/* CTA */
+
+.cta {
+	margin: 4rem 0;
+	padding: 2rem;
+}
+
+.cta h3 {
+	margin-bottom: 1rem;
+}
+
+.cta .button {
+	font-size: 1.1rem;
+	padding: 14px 16px 12px 16px;
+}
+
+/* Policies */
+
+.coaching-policies{
+	margin-bottom: 3rem;
+}
+
+.travel-list {
+	line-height: 1.6;
+	margin: 1rem 0 1rem 1rem;
+}
+
+.travel-list li {
+	margin: .5rem 0;
+}
+
+.travel-list b {
+	font-weight: 600;
+}
+
+/* Footer */
+
+footer {
+	align-items: center;
+	display:flex;
+	flex-direction: column;
+}
+
+.footer-link {
+	align-items: center;
+	display: flex;
+	font-size: .8rem;
+	margin-bottom: .65rem;
+}
+
+.footer-link svg {
+	fill: #1570DD;
+	margin-right: 0.1rem;
+}
+
+.twitter-icon {
+	height: 14px;
+}
+
+.email-icon {
+	height: 12px;
+}
+
+.footer-link:hover svg {
+	fill: #F55347;
+}
+
+.no-data {
+	color: #999;
+	margin-top: .85rem;
+}
