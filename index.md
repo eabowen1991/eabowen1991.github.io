@@ -13,6 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="pricing.css" rel="stylesheet">
+    <link href="nav.css" rel="stylesheet">
   </head>
 
   <body>
